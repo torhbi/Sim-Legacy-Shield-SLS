@@ -59,6 +59,15 @@ User Safety & Logic (Grandma-Proofing)
 ‎   Language Accessibility:The logic should support Pidgin and local language prompts like Yoruba, Igbo, Hausa to ensure the May 2026 BVN deadline information is clear to all demographics.
 
 
+Current Phase: Decentralized Validation (Plan B Strategy)
+
+‎  To ensure SLS remains functional regardless of official API timelines, we are implementing a "Bottom Up" Risk Framework:
+‎ 
+‎      Community Intelligence Network: Enabling users and local agents to report "identity ghosts" on recycled SIMs.
+‎      Risk Scoring Heuristics: Building internal logic to flag high risk linkages based on SIM age and CBN Once in a Lifetime policy triggers.
+‎      Fintech Trust Signals: Leveraging anonymized verification patterns from private sector partners to confirm identity health.
+‎
+
     Project Vision & Sustainability
 ‎SIM Legacy Shield (SLS) is a social impact solution designed to bridge the digital divide created by the May 2026 BVN deadline.
 ‎
