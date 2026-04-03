@@ -42,7 +42,9 @@
 ‎   Transparency: Risk scores (🟢/🟡/🔴) are generated based on metadata and header patterns, not by "hacking" private databases.
 ‎   Rule of Law: The Emergency Brake feature acts as a Policy Recommendation, providing users with verifiable evidence to use in official bank appeal processes.
 
+
 User Safety & Logic (Grandma-Proofing)
+
 ‎To ensure SIM Legacy Shield (SLS) remains accessible and safe for non tech savvy Nigerians, the following Safety are required in the USSD/API logic:
 ‎
 ‎    User Safety & Logic (Grandma-Proofing)
