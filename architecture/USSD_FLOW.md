@@ -5,4 +5,3 @@ SLS Grandma-Proof USSD Flow
 ‎     4. Hashed Check: System pings the Zero PII vault for previous flags.
 ‎     5. Verdict: Displays 🟢 (Safe), 🟡 (Caution), or 🔴 (High Risk).
 ‎     6. Exit/Evidence: Generate a Dispute Reference Code if 🔴.
-‎5.  Scroll down and click Commit changes.
