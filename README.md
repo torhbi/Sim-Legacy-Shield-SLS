@@ -1,6 +1,9 @@
  SIM Legacy Shield (SLS) 🛡️🇳🇬
 
- 
+ [In Progress] API Research: Investigating NIBSS/TIRMS endpoints for SIM-to-BVN verification (@Odusina).
+‎[New] Architecture: Finalized the 6step "Grandma-Proof" USSD flow and Risk Scoring heuristics.
+‎[Goal] Integration of SHA-256 hashing for Zero-PII data storage.
+
 ‎
 ‎    The Identity Auditor for Nigeria's One Shot BVN Era
 
