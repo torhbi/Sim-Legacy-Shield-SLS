@@ -1,4 +1,6 @@
  SIM Legacy Shield (SLS) 🛡️🇳🇬
+ 
+‎🚀 Current Sprint (April 2026)
 
  [In Progress] API Research: Investigating NIBSS/TIRMS endpoints for SIM-to-BVN verification (@Odusina).
 ‎[New] Architecture: Finalized the 6step "Grandma-Proof" USSD flow and Risk Scoring heuristics.
