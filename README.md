@@ -47,8 +47,8 @@
 ‎   Consent Based Auditing: No SIM audit is triggered without explicit user authorization via the USSD interface.
 ‎   Transparency: Risk scores (🟢/🟡/🔴) are generated based on metadata and header patterns, not by "hacking" private databases.
 
-⚖️ Rule of Law & The Identity safeguard protocol 
-‎The Identity safeguard protocol acts as a Decision Support & Evidence Generator. If a SIM is flagged 🔴 High Risk, SLS generates a unique Audit Reference Code. The user can present this code at their bank to provide verifiable evidence of a "Recycled SIM Conflict." This documentation assists bank officials in validating a legitimate exception to the "Once in a Lifetime" change restriction, ensuring innocent citizens are not unfairly locked out of their identities.
+⚖️ Regulatory Support & The Identity Safeguard
+‎The Identity Safeguard acts as a  Decision Support & Evidence Generator. If a SIM is flagged 🔴 High Risk, SLS generates a unique Verification Reference Code. This allows the user to present documented findings of a "Recycled SIM Conflict" to their financial institution. This transparency helps bank officials verify the legitimacy of an appeal for a BVN linkage correction, ensuring the "Once in a Lifetime" policy remains effective while protecting innocent consumers from recycled identity errors.
 
 User Safety & Logic (Grandma-Proofing)
 
