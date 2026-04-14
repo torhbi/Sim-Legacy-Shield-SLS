@@ -11,7 +11,7 @@
 ‎
 ‎       Executive Summary
 ‎
-‎Starting May 1, 2026, the CBN has restricted BVN phone changes to once in a lifetime. SLS is a proactive risk mitigation framework designed to audit recycled SIM cards for financial ghosts before they are permanently bonded to a user's digital identity.
+‎Starting May 1, 2026, the CBN has restricted BVN phone changes to once in a lifetime. SLS is a proactive risk mitigation framework designed to verify the status of recycled Sim cards for financial ghosts before they are permanently bonded to a user's digital identity.
 ‎
 ‎  The Solution: 6 Step Grandma Friendly Workflow.
 ‎
