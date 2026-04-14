@@ -7,8 +7,7 @@
 ‎[Goal] Integration of SHA-256 hashing for Zero-PII data storage.
 
 ‎
-‎    The Identity Auditor for Nigeria's One Shot BVN Era
-
+‎    The Identity Status Verification Framework for Nigeria's Single -Linkage BVN Policy 
 ‎
 ‎       Executive Summary
 ‎
