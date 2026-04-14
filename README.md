@@ -21,17 +21,18 @@
 ‎1.  SIM Acquisition: User buys and registers a new SIM.
 ‎2.  Activation: SIM is verified via NIN and becomes active.
 ‎3.  ⚠️ The SLS Audit: Before linking the BVN, the user dials a USSD code (e.g, *7006#).
-‎4. Verification Engine: SLS scans for incoming debt SMS patterns and fintech app registration conflicts.
-‎5.  Risk Scoring: User receives a status:
-🟢 Safe
-🟡 Caution 
-🔴 Risk.
+‎4. Verification Engine: SLS queries the Zero-PII Ledger for historical flags and prompts the user for  Self-Declared Signals (e.g, Do you receive bank alerts for a stranger?).
+‎5. Risk Scoring: Our Heuristic Engine applies weights (+1 for User reports, +5 for Agent flags) to generate a Confidence Rated Status: 🟢 Safe, 🟡 Caution, or 🔴 High Risk.
 ‎6. Decision: User chooses to link their BVN or discard the compromised SIM.
 ‎
 ‎  Technical Collaboration (Open Roles)
 ‎
-‎     IT Administration (Lead: @OdusinaDamilare): Mapping the USSD gateway and telecom API integrations.
-‎   Security Research: Identifying common Financial Ghost patterns in recycled numbers.
+‎     🏗️ System Architecture (The 5 Pillars)
+‎USSD Gateway: Entry point for Grandma-Proof accessibility.
+‎API Server: The Brain routing signals between the user and the ledger.
+‎Risk Engine: Logic center that calculates scores and confidence levels.
+‎Signal Ledger (Hashed): A SHA-256 anonymized database of identity ghosts.
+‎Agent Dashboard: A verification portal for 3MTT Agents to validate high risk flags.
 
 ‎ ⚖️ Regulatory Alignment & Compliance
 ‎
@@ -41,12 +42,14 @@
 ‎ 🛡️ SLS protects the user: It provides a consumer facing USSD interface, allowing the everyday Nigerian to perform a Pre Linkage Audit before committing their BVN to a recycled MSISDN.
 ‎
 ‎    Data Privacy & Legal Guardrails (NDPR/NDPA)
+
 ‎SIM Legacy Shield is built with a Privacy by Design philosophy to ensure full compliance with Nigerian laws:
-‎   Zero Storage Policy: SLS does not store sensitive PII (Personally Identifiable Information) such as full BVN or NIN digits.
+‎   Zero-PII Ledger Policy: SLS does not store names, BVNs, or phone numbers. We store SHA-256 Anonymized Hashes. This allows us to recognize a "Ghost SIM" across different users without ever knowing the actual identity of the person holding it. 
 ‎   Consent Based Auditing: No SIM audit is triggered without explicit user authorization via the USSD interface.
 ‎   Transparency: Risk scores (🟢/🟡/🔴) are generated based on metadata and header patterns, not by "hacking" private databases.
-‎   Rule of Law: The Emergency Brake feature acts as a Policy Recommendation, providing users with verifiable evidence to use in official bank appeal processes.
 
+⚖️ Rule of Law & The Identity safeguard protocol 
+‎The Identity safeguard protocol acts as a Decision Support & Evidence Generator. If a SIM is flagged 🔴 High Risk, SLS generates a unique Audit Reference Code. The user can present this code at their bank to provide verifiable evidence of a "Recycled SIM Conflict." This documentation assists bank officials in validating a legitimate exception to the "Once in a Lifetime" change restriction, ensuring innocent citizens are not unfairly locked out of their identities.
 
 User Safety & Logic (Grandma-Proofing)
 
@@ -74,9 +77,17 @@ Current Phase: Decentralized Validation (Plan B Strategy)
 ‎   Risk Scoring Heuristics: Building internal logic to flag high risk linkages based on SIM age and CBN Once in a Lifetime policy triggers.
 
 ‎   Fintech Trust Signals: Leveraging anonymized verification patterns from private sector partners to confirm identity health.
+
+‎ 🛡️ Anti-Abuse & Trust Layer
+
+‎ To prevent malicious flagging, we use Signal Weighting:
+‎Standard User Report: +1 Weight.
+‎Verified 3MTT Agent Report: +5 Weight (Gold Standard).
+‎System Threshold: A score of 6+ is required to generate 🔴 a high Risk identity safeguard status.
 ‎
 
     Project Vision & Sustainability
+    
 ‎SIM Legacy Shield (SLS) is a social impact solution designed to bridge the digital divide created by the May 2026 BVN deadline.
 ‎
 ‎    B2B Licensing: We aim to provide Telcos and Financial Institutions with "Safety Rail" logic to reduce customer churn and identity errors during national policy shifts.
